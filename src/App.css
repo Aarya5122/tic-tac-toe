@@ -1,0 +1,48 @@
+body{
+  background: url("./img/bgImage.jpg");
+
+}
+
+.view{
+  width: 100vw;
+  margin-top: 10px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.item-container-bg{
+  background: rgba(100, 0,200, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.header{
+  background: rgb(100, 200 , 0);
+  color: white;
+}
+
+.header-warning{
+  background: rgba(236, 94, 51, 0.932);
+  color: white;
+}
+
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  font-size: 35px;
+  color: #f0f0f0;
+}
+
+.btn-color{
+  background: rgb(100, 200 , 0);
+}
